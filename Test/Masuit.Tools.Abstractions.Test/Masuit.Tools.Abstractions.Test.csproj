@@ -29,4 +29,10 @@
     <ProjectReference Include="..\..\Masuit.Tools.Abstractions\Masuit.Tools.Abstractions.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
